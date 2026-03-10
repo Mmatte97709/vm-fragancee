@@ -1,9 +1,9 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { supabase } from "@/utils/supabase/client";
-import { useStore } from "@/store/useStore";
-import { formatPrice } from "@/utils/currency";
+import { supabase } from "../../utils/supabase/client";
+import { useStore } from "../../store/useStore";
+import { formatPrice } from "../../utils/currency";
 import Link from "next/link";
 import { ShoppingBag } from "lucide-react";
 

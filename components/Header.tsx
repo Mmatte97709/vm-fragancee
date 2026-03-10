@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { ShoppingBag, Search } from "lucide-react";
-import { useStore } from "@/store/useStore";
+import { useStore } from "../store/useStore";
 
 export default function Header() {
   const { currency, setCurrency } = useStore();

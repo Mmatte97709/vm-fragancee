@@ -1,9 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { supabase } from "@/utils/supabase/client";
-import { formatPrice } from "@/utils/currency";
-import { useStore } from "@/store/useStore";
+import { supabase } from "../../../utils/supabase/client";
+import { formatPrice } from "../../../utils/currency";
+import { useStore } from "../../../store/useStore";
 import { ShoppingCart } from "lucide-react";
 
 export default function ProductPage({ params }: { params: { id: string } }) {
